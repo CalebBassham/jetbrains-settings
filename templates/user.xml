@@ -1,0 +1,21 @@
+<templateSet group="user">
+  <template name="faunaerror" value="switch (err.description) {&#10;&#9;&#9;&#9;default:&#10;&#9;&#9;&#9;&#9;console.error(err)&#10;&#9;&#9;&#9;&#9;return UNKNOWN_ERROR&#10;&#9;&#9;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="enhance" value="use:enhance={{&#10;&#9;pending: async () =&gt; {&#10;&#9;&#9;&#10;&#9;},&#10;&#9;error: async (res, err, form) =&gt; {&#10;&#9;&#9;&#10;&#9;},&#10;&#9;result: async (res, form) =&gt; {&#10;&#9;&#9;&#10;&#9;},&#10;&#9;finally: () =&gt; {&#10;&#9;&#9;&#10;&#9;}&#10;}}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="SVELTE_HTML" value="true" />
+    </context>
+  </template>
+  <template name="load" value="export async function load({ params, locals, fetch }) {&#10;&#10;&#9;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

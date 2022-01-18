@@ -1,0 +1,27 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings">
+        <execution />
+      </component>
+      <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+      </component>
+      <component name="accountSettings">
+        <option name="activeProfile" value="profile:default" />
+        <option name="activeRegion" value="us-east-2" />
+        <option name="recentlyUsedProfiles">
+          <list>
+            <option value="profile:default" />
+          </list>
+        </option>
+        <option name="recentlyUsedRegions">
+          <list>
+            <option value="us-east-2" />
+          </list>
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>
