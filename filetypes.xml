@@ -4,6 +4,7 @@
       <mapping pattern=".env.development" type=".env file" />
       <mapping pattern="teleponefile" type="AUTO_DETECTED" />
       <mapping pattern="nginx" type="AUTO_DETECTED" />
+      <mapping pattern="_MultitrackRecordingUploadForm" type="AUTO_DETECTED" />
       <mapping pattern="minecraft-server" type="AUTO_DETECTED" />
       <mapping pattern="datebook_processed" type="AUTO_DETECTED" />
       <mapping pattern="datebook" type="AUTO_DETECTED" />
