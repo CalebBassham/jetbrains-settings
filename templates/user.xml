@@ -18,4 +18,12 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="isAdmin" value="let isAdmin = $session?.auth?.user?.role === ROLE_ADMIN" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
