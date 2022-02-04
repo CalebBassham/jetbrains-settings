@@ -5,4 +5,7 @@
   <template name="mb" value="margin-bottom: $END$;" description="margin-bottom:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="ml" value="margin-left: $END$;" description="margin-left:...;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
